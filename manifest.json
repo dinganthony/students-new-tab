@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "StudentNewTab",
+	"description": "The alpha version (0.0.1) of the student-centered new tab page",
+	"version": "0.01",
+	"author": "Anthony Ding",
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "Student New Tab!",
+		"default_popup": "newtab.html"
+	},
+
+	"chrome_url_overrides": {
+		"newtab": "newtab.html"
+	},
+
+	"permissions": ["activeTab"]
+
+}
