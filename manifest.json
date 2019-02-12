@@ -6,7 +6,6 @@
 	"author": "Anthony Ding",
 
 	"browser_action": {
-		"default_icon": "icon.png",
 		"default_title": "Student New Tab!",
 		"default_popup": "newtab.html"
 	},
@@ -15,6 +14,7 @@
 		"newtab": "newtab.html"
 	},
 
-	"permissions": ["activeTab"]
-
+	"permissions": {
+		"activeTab"
+	}
 }
