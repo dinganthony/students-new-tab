@@ -24,7 +24,6 @@ div {
 	background-repeat: no-repeat;
 	background-position: center;
 	opacity: 0.9;
-	
 }
 
 h1, h2 {
@@ -40,7 +39,7 @@ h1, h2 {
 h1 {
 
 	font-size: 3.3rem;
-	padding-top: 40vh;
+	padding-top: 42vh;
 }
 
 h2 {
