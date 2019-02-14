@@ -18,18 +18,18 @@ const PAGES = [
 	quote: "All our dreams can come true, if we have the courage to pursue them.",
 	person: "Walt Disney",
 	image: "url('images/redcity.jpg')"
-}
+} 
 ];
 
 function choosePage() {
 	let today = new Date();
 	let dd = today.getDate();
-	let page = Math.floor(dd/15);
-	page = Math.floor(Math.random() * 4);
+	let page = dd % PAGES.length;
+	page = Math.floor(Math.random() * PAGES.length);
 	document.getElementById("page").style.backgroundImage = PAGES[page].image;
 	document.getElementById("quote").innerHTML = PAGES[page].quote;
 	document.getElementById("person").innerHTML = PAGES[page].person;
 	
 };
-	
+
 choosePage();
