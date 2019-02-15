@@ -25,9 +25,9 @@ const PAGES = [
 	image: "url('images/bluecity.jpg')"
 },
 {
-	quote: "Be yourself, everyone else is already taken",
+	quote: "Be yourself, everyone else is already taken.",
 	person: "Oscar Wilde",
-	image: "url('images/hk.jpg')"
+	image: "url('images/daynyc.jpg')"
 },
 {
 	quote: 	"Feet, what do I need them for if I have wings to fly.",
@@ -37,12 +37,12 @@ const PAGES = [
 {
 	quote: "You are braver than you believe, stronger than you seem, and smarter than you think.",
 	person: "Christopher Robin",
-	image: "url('images/birdseye.jpg')"
+	image: "url('images/nycbw.jpg')"
 },
 {
 	quote: "Go confidently in the direction of your dreams. Live the life you have imagined.",
 	person: "Henry David Thoreau",
-	image: "url('images/daynyc.jpg')"
+	image: "url('images/nycheli.jpg')"
 },
 {
 	quote: "It is during our darkest moments that we must focus to see the light.",
@@ -53,13 +53,29 @@ const PAGES = [
 	quote: "Courage is grace under pressure.",
 	person: "Ernest Hemingway",
 	image: "url('images/sydney.jpg')"
+},
+{
+	quote: "We don't stop playing because we grow old; we grow old because we stop playing.",
+	person: "George Bernard Shaw",
+	image: "url('images/seattle.jpg')"
+},
+{
+	quote: "The two most important days in your life are the day you are born and the day you find out why.",
+	person: "Mark Twain",
+	image: "url('images/taipei.jpg')"
+},
+{
+	quote: "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+	person: "Ralph Waldo Emerson",
+	image: "url('images/seattleaerial.jpg')"
 }
 ];
 
 function choosePage() {
 	let today = new Date();
 	let dd = today.getDate();
-	let page = dd % PAGES.length;
+	let page = (dd+1) % PAGES.length;
+	page = Math.floor(Math.random() * PAGES.length);
 	document.getElementById("page").style.backgroundImage = PAGES[page].image;
 	document.getElementById("quote").innerHTML = PAGES[page].quote;
 	document.getElementById("person").innerHTML = PAGES[page].person;

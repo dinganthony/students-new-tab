@@ -35,6 +35,8 @@ h1, h2 {
 	color: white;
 	text-transform: small-caps;
 	word-spacing: 0.3vw;
+	text-shadow: 0.5px 0.5px black;
+	/*todo: add feathering effects*/
 }
 
 h1 {
