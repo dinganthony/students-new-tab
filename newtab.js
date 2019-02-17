@@ -27,7 +27,7 @@ const PAGES = [
 {
 	quote: "Be yourself, everyone else is already taken.",
 	person: "Oscar Wilde",
-	image: "url('images/daynyc.jpg')"
+	image: "url('images/seattleaerial.jpg')"
 },
 {
 	quote: 	"Feet, what do I need them for if I have wings to fly.",
@@ -37,7 +37,7 @@ const PAGES = [
 {
 	quote: "You are braver than you believe, stronger than you seem, and smarter than you think.",
 	person: "Christopher Robin",
-	image: "url('images/nycbw.jpg')"
+	image: "url('images/seattle.jpg')"
 },
 {
 	quote: "Go confidently in the direction of your dreams. Live the life you have imagined.",
@@ -57,17 +57,17 @@ const PAGES = [
 {
 	quote: "We don't stop playing because we grow old; we grow old because we stop playing.",
 	person: "George Bernard Shaw",
-	image: "url('images/seattle.jpg')"
+	image: "url('images/nycbw.jpg')"
 },
 {
 	quote: "The two most important days in your life are the day you are born and the day you find out why.",
 	person: "Mark Twain",
-	image: "url('images/taipei.jpg')"
+	image: "url('images/daynyc.jpg')"
 },
 {
 	quote: "Do not go where the path may lead, go instead where there is no path and leave a trail.",
 	person: "Ralph Waldo Emerson",
-	image: "url('images/seattleaerial.jpg')"
+	image: "url('images/taipei.jpg')"
 }
 ];
 
