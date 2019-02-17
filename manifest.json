@@ -1,12 +1,12 @@
 {
 	"manifest_version": 2,
-	"name": "StudentNewTab",
-	"description": "The alpha version (0.0.1) of the student-centered new tab page",
-	"version": "0.01",
+	"name": "Cityscapes",
+	"description": "The alpha version of a new tab page that displays daily motivational and inspirational quotes on stunning city backdrops.",
+	"version": "0.05",
 	"author": "Anthony Ding",
 
 	"browser_action": {
-		"default_title": "Student New Tab!",
+		"default_title": "Cityscapes",
 		"default_popup": "newtab.html"
 	},
 
