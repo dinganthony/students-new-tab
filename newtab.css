@@ -24,7 +24,7 @@ html, body {
 	background-size: 100vw 130vh;
 	background-repeat: no-repeat;
 	background-position: center;
-	opacity: 0.9;
+	opacity: 0.8;
 }
 
 h1, h2 {
@@ -35,8 +35,7 @@ h1, h2 {
 	color: white;
 	text-transform: small-caps;
 	word-spacing: 0.3vw;
-	text-shadow: 0.5px 0.5px black;
-	/*todo: add feathering effects*/
+	text-shadow: 0.5px 0.5px grey;
 }
 
 h1 {

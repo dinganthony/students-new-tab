@@ -1,13 +1,13 @@
 {
 	"manifest_version": 2,
 	"name": "Cityscapes",
-	"description": "The alpha version of a new tab page that displays daily motivational and inspirational quotes on stunning city backdrops.",
-	"version": "0.05",
+	"description": "A new tab page that displays daily motivational and inspirational quotes on stunning city backdrops.",
+	"version": "0.9",
 	"author": "Anthony Ding",
 
 	"browser_action": {
 		"default_title": "Cityscapes",
-		"default_popup": "newtab.html"
+		"default_popup": "popup.html"
 	},
 
 	"chrome_url_overrides": {
