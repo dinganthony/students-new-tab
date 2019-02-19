@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Unica+One');
-@import url('https://fonts.googleapis.com/css?family=Moul');
 
 /* Global overrides*/
 * {
@@ -57,4 +56,4 @@ h2 {
     opacity: 0;
     animation: fadeIn ease-in 1;
     animation-fill-mode: forwards;
-    animation-duration: 0.3s;
+    animation-duration: 0.5s;
