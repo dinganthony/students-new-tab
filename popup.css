@@ -10,17 +10,30 @@
 
 body {
 	width: 200px;
-	height: 250px;
+	height: 180px;
 }
 
 h1 {
 	font-size: 1.5rem;
+	padding: 20px;
+	text-align: center;
 }
 
 p {
-	font-size: 1rem;
+	font-size: 0.7rem;
+	padding-top: 5px;
+	padding-bottom: 2px;
+	text-align: center;
 }
 
 a {
 	text-decoration: none;
+}
+
+hr {
+	width: 80%;
+	height: 1px;
+	margin: auto;
+	background-color: black;
+	margin-bottom: 20px;
 }
