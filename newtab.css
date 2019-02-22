@@ -1,3 +1,9 @@
+/*
+	Cityscapes New Tab
+	Built by Anthony Ding
+	http://anthonyding.com
+	Copyright 2019 by Anthony Ding.
+*/
 @import url('https://fonts.googleapis.com/css?family=Unica+One');
 
 /* Global overrides*/
@@ -19,7 +25,6 @@ html, body {
 	margin: 0;
 	padding: 0;
 	max-height: 100%;
-	background-image: url('images/nyc.jpg');
 	background-size: 100vw 130vh;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -57,3 +62,4 @@ h2 {
     animation: fadeIn ease-in 1;
     animation-fill-mode: forwards;
     animation-duration: 0.5s;
+ }

@@ -1,2 +1,2 @@
-# students-new-tab
-A Chrome extension that creates a new tab page for students to organize their life and boost productivity.
+# cityscapes
+A new tab page that displays daily motivational and inspirational quotes on stunning city backdrops.
