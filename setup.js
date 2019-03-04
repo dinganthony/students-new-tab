@@ -83,13 +83,6 @@ const PAGES = [
 	city: "Seoul, Korea"
 },
 {
-	quote: "Keep your eyes on the stars, and your feet on the ground.",
-	person: "Theodore Roosevelt",
-	image: "highrise.jpg",
-	credit: "Verne Ho",
-	city: "Credits: Unsplash"
-},
-{
 	quote: "Start where you are. Use what you have. Do what you can.",
 	person: "Arthur Ashe",
 	image: "willis.jpg",
@@ -188,11 +181,81 @@ const PAGES = [
 	city: "New York City, USA"
 },
 {
-	quote: "Hi.",
-	person: "Aesop",
+	quote: "The only way to discover the limits of the possible is to go beyond them into the impossible.",
+	person: "Arthur C. Clarke",
 	image: "hk.jpg",
 	credit: "Dan Freeman",
 	city: "Hong Kong"
+},
+{
+	quote: "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+	person: "Albert Einstein",
+	image: "broadway.jpg",
+	credit: "Jason Briscoe",
+	city: "New York City, USA"
+},
+{
+	quote: "We cannot change the cards we are dealt, just how we play the game.",
+	person: "Randy Pausch",
+	image: "paris.jpg",
+	credit: "Denys Nevozhai",
+	city: "Paris, France"
+},
+{
+	quote: "We delight in the beauty of the butterfly, but rarely admit the changes it has gone through to achieve that beauty.",
+	person: "Maya Angelou",
+	image: "ehningen.jpg",
+	credit: "Max Bottinger",
+	city: "Ehningen, Germany"
+},
+{
+	quote: "What's meant to be will always find a way.",
+	person: "Trisha Yearwood",
+	image: "shanghaiway.jpg",
+	credit: "Denys Nevozhai",
+	city: "Shanghai, China"
+},
+{
+	quote: "The only journey is the one within.",
+	person: "Rainer Maria Rilke",
+	image: "tudor.jpg",
+	credit: "Robert Bye",
+	city: "New York City, USA"
+},
+{
+	quote: "You can't use up creativity. The more you use, the more you have.",
+	person: "Maya Angelou",
+	image: "tokyotower.jpg",
+	credit: "Louie Martinez",
+	city: "Tokyo, Japan"
+},
+{
+	quote: "Do one thing every day that scares you.",
+	person: "Eleanor Roosevelt",
+	image: "cctv.jpg",
+	credit: "Raj Eiamworakul",
+	city: "Beijing, China"
+},
+{
+	quote: "The world is not a wish-granting factory.",
+	person: "John Green",
+	image: "dubaisunrise.jpg",
+	credit: "David Rodrigo",
+	city: "Dubai, UAE"
+},
+{
+	quote: "There are two ways of spreading light: to be the candle or the mirror that reflects it.",
+	person: "Edith Wharton",
+	image: "dubaisea.jpg",
+	credit: "Christoph Schulz",
+	city: "Dubai, UAE"
+},
+{
+	quote: "The secret of getting ahead is getting started.",
+	person: "Mark Twain",
+	image: "englishbay.jpg",
+	credit: "Mike Benna",
+	city: "Vancouver, Canada"
 }
 ];
 
@@ -221,9 +284,9 @@ function getDayOfYear() {
 }
 
 function choosePage() {
-	let page = (getDayOfYear() + today.getFullYear()) % PAGES.length;
-	//page = Math.floor(Math.random() * PAGES.length);
-	return 15;
+	let page = (getDayOfYear() + today.getFullYear() - 15) % PAGES.length ;
+	/*page = Math.floor(Math.random() * PAGES.length);  /* debug */
+	return page;
 }
 
 let page = choosePage();
