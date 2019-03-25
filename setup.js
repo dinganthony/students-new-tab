@@ -6,20 +6,6 @@
 */
 const PAGES = [
 {
-	quote: "Life is not measured by the number of breaths we take, but by the moments that take our breath away.",
-	person: "Maya Angelou",
-	image: "nyc.jpg",
-	credit: "Pedro Lastra",
-	city: "New York City, USA"
-}, 
-{
-	quote: "Move fast and break things.",
-	person: "Mark Zuckerberg",
-	image: "citynights.jpg",
-	credit: "Denys Nevozhai",
-	city: "New York City, USA"
-},
-{
 	quote: "You are braver than you believe, stronger than you seem, and smarter than you think.",
 	person: "Christopher Robin",
 	image: "beijing.jpg",
@@ -123,13 +109,6 @@ const PAGES = [
 	image: "daynyc.jpg",
 	credit: "Jeff Brown",
 	city: "New York City, USA"
-},
-{
-	quote: "Dwell on the beauty of life. Watch the stars, and see yourself running with them.",
-	person: "Marcus Aurelius",
-	image: "minneapolis.jpg",
-	credit: "Nicole Harrington",
-	city: "Minneapolis, USA"
 },
 {
 	quote: "Someday is not a day of the week.",
@@ -256,6 +235,62 @@ const PAGES = [
 	image: "englishbay.jpg",
 	credit: "Mike Benna",
 	city: "Vancouver, Canada"
+}, 
+{
+	quote: "Don't cry because it's over, smile because it happened.",
+	person: "Dr. Seuss",
+	image: "venice.jpg",
+	credit: "Henrique Ferreira", 
+	city: "Venice, Italy"
+}, 
+{
+	quote: "Life is a book and there are a thousand pages I have not yet read.",
+	person: "Cassandra Clare",
+	image: "nyc.jpg",
+	credit: "Pedro Lastra",
+	city: "New York City, USA"
+}, 
+{
+	quote: "It does not do to dwell on dreams and forget to live.",
+	person: "J.K. Rowling",
+	image: "highchicago.jpg",
+	credit: "Max Bender",
+	city: "Chicago, USA"
+},
+{
+	quote: "Life is what happens to us while we are making other plans.",
+	person: "Allen Saunders",
+	image: "pontdesevre.jpg",
+	credit: "NON",
+	city: "Paris, France"
+}, 
+{
+	quote: "You wanna fly, you got to give up the shit that weighs you down.", 
+	person: "Toni Morrison",
+	image: "redvenice.jpg",
+	credit: "Candre Mandawe",
+	city: "Venice, Italy"
+}, 
+{
+	quote: "Life moves pretty fast. If you don't stop and look around once in a while, you could miss it.", 
+	person: "Ferris Bueller",
+	image: "blur.jpg",
+	credit: "Gabriel Santiago",
+	city: "Credits: Unsplash"
+}, 
+{
+	quote: "Look around, look around at how lucky we are to be alive right now.",
+	person: "Elizabeth Schuyler",
+	image: "bluecity.jpg",
+	credit: "Shea Rouda",
+	city: "Los Angeles, USA"
+}, 
+{
+	quote: "Life can only be understood backwards, but it must be lived forwards.",
+	person: "Soren Kierkegaard",
+	image: "citynights.jpg",
+	credit: "Denys Nevozhai",
+	city: "New York City, USA"
 }
 ];
 
@@ -284,7 +319,7 @@ function getDayOfYear() {
 }
 
 function choosePage() {
-	let page = (getDayOfYear() + today.getFullYear() - 15) % PAGES.length ;
+	let page = (getDayOfYear() + today.getFullYear() + 21) % PAGES.length;
 	/*page = Math.floor(Math.random() * PAGES.length);  /* debug */
 	return page;
 }
